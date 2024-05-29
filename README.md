@@ -60,6 +60,13 @@ we are more interested in how you approach the task than spending lots of time o
 When you are aready to submit, please ensure you have forked this repository, no merge/pull request is required,
 and provide us a link to your attempt.
 
+## Approach to Solution
+I went at this as if it were a couple of steps of a CRUD application - but repalcing the usual DB calls with the PokeAPI API calls. The approach...
+
+	* So when the App first loads there is a planned list of all the known Pokemon, along with a JS search field to filter the results.
+	* This will include an option per Pokemon to display the details of that Pokemon.
+	* Once displayed, these details will not be editable, and will include a link to return to the list.
+	* There will be a catchall that will display an "empty" set of details should the PokeAPI ID doesn't return any details
 
 ## Copyright
 All trademarks are the property of their respective owners.
