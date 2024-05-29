@@ -1,0 +1,127 @@
+* {
+	position: relative;
+	background: transparent;
+	text-align: center;
+	padding: 0;
+	margin: 0 auto;
+	border: none;
+	font-size: 1em;
+}
+
+body {
+	background: white;
+	margin: 10px 0 0 0;
+	min-width: 95vw;
+	max-width: 95vw;
+}
+
+.inline-search {
+	background-image: url('/images/searchicon.png');
+	background-position: 10px 10px;
+	background-repeat: no-repeat;
+	padding: 6px 6px 6px 40px;
+}
+
+.pokemon-card {
+	display: inline-block;
+	position: relative;
+	width: 1050px;
+	height: 1520px;
+	padding: 125px 10% 0 10%;
+	margin: 0 auto;
+	background: lightgrey;
+	background-image: url("/images/card.png");
+	background-size: cover;
+	background-repeat: no-repeat, no-repeat;
+	background-position: center, center;
+}
+
+.pokemon-id {
+	border-radius: 50%;
+	border: none;
+	background: black;
+	color: white;
+	font-weight: bolder;
+	font-size: 1.5em;
+	min-width: 70px;
+	max-width: 70px;
+	min-height: 70px;
+	max-height: 70px;
+	line-height: 70px;
+	float: right;
+	margin-right: 20px;
+}
+
+.pokemon-types {
+	clear: both;
+	color: dimgrey;
+	font-weight: bolder;
+	margin-right: 20px;
+	text-align: right;
+}
+
+.pokemon-title {
+	clear: both;
+	padding-top: 20px;
+	font-weight: bolder;
+	font-size: 2em;
+	text-align: left;
+	padding-bottom: 15px;
+}
+
+.pokemon-card-body {
+	clear: both;
+}
+
+.pokemon-text {
+	clear: both;
+	font-size: 1.2em;
+	text-align: left;
+}
+
+.card-grid {
+	clear: both;
+	display: grid;
+	min-width: 100%;
+	max-width: 100%;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.card-grid-child {
+	margin: 10px 2%;
+	border: 1px black solid;
+	border-radius: 10px;
+	min-width: 96%;
+	max-width: 96%;
+	min-height: 200%;
+	max-height: 200%;
+	background-color: ghostwhite;
+	background-repeat: no-repeat, no-repeat;
+	background-position: center, center;
+	background-size: cover;
+}
+
+.pokemon-category {
+	clear: both;
+	font-weight: bold;
+	color: dimgrey;
+	font-size: 1.8em;
+	text-decoration: underline;
+	text-decoration-color: lightgrey;
+}
+
+.pokemon-sub-category {
+	clear: both;
+	font-weight: bold;
+	color: dimgrey;
+	font-size: 1.5em;
+	text-align: left;
+	margin-top: 1vh;
+}
+
+.pokemon-description {
+	clear: both;
+	color: dimgrey;
+	font-size: 1em;
+	text-align: left;
+}
