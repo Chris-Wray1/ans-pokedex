@@ -67,6 +67,9 @@ I went at this as if it were a couple of steps of a CRUD application - but repal
 	* This will include an option per Pokemon to display the details of that Pokemon.
 	* Once displayed, these details will not be editable, and will include a link to return to the list.
 	* There will be a catchall that will display an "empty" set of details should the PokeAPI ID doesn't return any details
+	* With a combination of routing and controller, apply a 404 catchall "fix"
+
+NB. There will likely be things to tidy up and improve upon. But as it was suggested to take approx 1 hour, I will stick to this. 
 
 ## Copyright
 All trademarks are the property of their respective owners.
